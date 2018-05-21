@@ -9,7 +9,7 @@ Can you help this little pet?
 Input
 
 The first line contains a single integer (1 <= N <= 100) the amount of messages.
-The next N lines contains a single message S, the length of S does not exceeded 1000 characters
+The next N lines contains a single message S, the length of S does not exceed 1000 characters
 and only contains lowercase Latin letters.
 
 Output
