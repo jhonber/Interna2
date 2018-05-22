@@ -3,7 +3,7 @@ Toby and primes
 Toby loves prime numbers and today he has the next challenge for you.
 You have an integer N (N has between 1 and 4 digits), is possible to reorder the
 digits of the number in such a way that one of the resulting numbers is a prime number?
-Note: The resulting number can't be contains leading zeros.
+Note: The resulting number can't have leading zeros.
 
 Input
 
