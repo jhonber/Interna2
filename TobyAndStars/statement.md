@@ -14,6 +14,8 @@ one star.
 
 2 <= N <= 500
 
+The coordinates of each star are between 0 and 1000
+
 ## Output
 
 Print the minimum distance between any pair of stars. The answer is considered
