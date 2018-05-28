@@ -10,7 +10,7 @@ The input starts with a number T indicating the number of test cases. For each o
 of the following T lines, there are two integers D and K denoting the number
 of candies and the number of friends respectively.
 
-1 <= T, D, N <= 10
+1 <= T, D, K <= 10
 
 ## Output
 
