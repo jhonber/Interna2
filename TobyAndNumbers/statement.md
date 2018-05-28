@@ -18,9 +18,13 @@ The input begins with an integer T denoting the number of test cases. For each
 test case, there is a number N indicating how many numbers are in the current case,
 followed by N positive integers.
 
+1 <= N <= 100
+
+Each one of the N numbers is between 1 and 10000
+
 ## Output
 
-Print one integer for each test case. Note that at end of each the game all the
+Print one integer for each test case. Note that at end of each game all the
 numbers are equal, for this reason you only need to print it once, no matter what
 is the size of the input list.
 
