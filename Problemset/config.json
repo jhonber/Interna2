@@ -4,10 +4,45 @@
             "name": "Toby And Love",
             "path": "TobyAndLove/statement.tex"
         },
-
+        "B": {
+            "name": "Toby And Coins",
+            "path": "TobyAndTheCoins/statement.tex"
+        },
+        "C": {
+            "name": "Toby And Stars",
+            "path": "TobyAndStars/statement.tex"
+        },
+        "D": {
+            "name": "Toby And Primes",
+            "path": "TobyAndPrimes/statement.tex"
+        },
+        "E": {
+            "name": "Toby And Numbers",
+            "path": "TobyAndNumbers/statement.tex"
+        },
+        "F": {
+            "name": "Toby And Sheeps",
+            "path": "TobyAndSheeps/statement.tex"
+        },
+        "G": {
+            "name": "Toby And Candies",
+            "path": "TobyAndCandies//statement.tex"
+        },
         "H": {
-          "name": "Toby And Sherlock",
-          "path": "TobyAndSherlock/statement.tex"
+            "name": "Toby And Sherlock",
+            "path": "TobyAndSherlock/statement.tex"
+        },
+        "I": {
+            "name": "Toby And Addition",
+            "path": "TobyAndAddition/statement.tex"
+        },
+        "J": {
+            "name": "Toby And The Mall",
+            "path": "TobyIsLostInTheMall/statement.tex"
+        },
+        "K": {
+            "name": "Toby And The Railway Stations",
+            "path": "TobyAndTheRailwayStations/statement.tex"
         }
     }
 }

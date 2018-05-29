@@ -32,7 +32,7 @@
         \begin{center}
             {\LARGE Problem A}\\
             {\Large Toby And Love}\\
-            {Time limit: 1 second}\\
+            {Time limit: 2 second}\\
             {Memory limit: 256 megabytes}
         \end{center}\textbf{\large Problem Description}
 
@@ -62,13 +62,261 @@ mylov
 tobyiloveyousomuchyouaremytruelove
 \end{verbatim}
 
-\textbf{\large Sample Input}
+\textbf{\large Sample Output}
 
 \begin{verbatim}
 1
 3
 0
 2
+\end{verbatim}
+
+\newpage
+
+        \begin{center}
+            {\LARGE Problem B}\\
+            {\Large Toby And Coins}\\
+            {Time limit: 2 second}\\
+            {Memory limit: 256 megabytes}
+        \end{center}\textbf{\large Problem Description}
+
+Toby is going to buy a machine to send love letters to his girlfriend, the machine
+costs $N$ pesos. Toby works very hard and he has a lot of money, in fact, he can
+pay the machine with any combination of coins!
+
+Toby wants to know what is the \textbf{minimum} number of coins he needs to buy the machine.
+
+In the Toby's city there are coins with the following values:
+
+$\{1, 2, 5, 10, 20\}$
+
+
+\textbf{\large Input Format}
+
+The first line contains an integer $1 < T < 100$ denoting the number of test cases. For each
+one of the next $T$ lines, there is an integer $1 < C < 10000$ denoting the cost of the machine.
+
+\textbf{\large Output Format}
+
+For each test case, print the minumum number of coins that Toby needs in order
+to buy the machine.
+
+\textbf{\large Sample Input}
+
+\begin{verbatim}
+3
+15
+8
+22
+\end{verbatim}
+
+\textbf{\large Sample Output}
+
+\begin{verbatim}
+2
+3
+2
+\end{verbatim}
+
+\newpage
+        \begin{center}
+            {\LARGE Problem C}\\
+            {\Large Toby And Stars}\\
+            {Time limit: 2 second}\\
+            {Memory limit: 256 megabytes}
+        \end{center}\textbf{\large Problem Description}
+
+Toby is looking at the sky and he found a lot of beautiful stars, he is
+wondering what is the minimum distance between any pair of stars. Could you
+help him ?
+
+Note: You can safetly asume that the stars are in a 2D plane.
+
+\textbf{\large Input Format}
+
+The input contains a number $N$ denoting the total number of stars. Each one of
+the following $N$ lines, contains a pair of integers denoting the position of
+one star.
+
+$2 \le N \le 500$
+
+The coordinates of each star are between 0 and 1000
+
+\textbf{\large Output Format}
+
+Print the minimum distance between any pair of stars. The answer is considered
+valid if the difference with the correct value is less than 1e-4
+
+\textbf{\large Sample Input}
+
+\begin{verbatim}
+5
+434 155
+8 412
+100 816
+301 762
+312 506
+\end{verbatim}
+
+\textbf{\large Sample Output}
+
+\begin{verbatim}
+208.127364851
+\end{verbatim}
+
+\newpage
+        \begin{center}
+            {\LARGE Problem D}\\
+            {\Large Toby And Primes}\\
+            {Time limit: 2 second}\\
+            {Memory limit: 256 megabytes}
+        \end{center}\textbf{\large Problem Description}
+
+Toby loves prime numbers and today he has the next challenge for you.
+You have an integer $N$ ($N$ has between 1 and 4 digits), is possible to reorder the
+digits of the number in such a way that one of the resulting numbers is a prime number?
+Note: The resulting number can't have leading zeros.
+
+\textbf{\large Input Format}
+
+The first line contains an integer $T$, denoting the number of test cases, in each of
+the next $T$ lines there is an integer $N$.
+
+\textbf{\large Output Format}
+
+For each test case you have to print ``YES'' if is possible to reorder the digits and make
+a prime number or print ``NO'' otherwise.
+
+\textbf{\large Sample Input}
+
+\begin{verbatim}
+6
+1
+7
+712
+209
+24
+1798
+\end{verbatim}
+
+\textbf{\large Sample Output}
+
+\begin{verbatim}
+NO
+YES
+YES
+NO
+NO
+YES
+\end{verbatim}
+
+\textbf{\large Explanation:}
+
+For the fourth case 209 can be reorder like this (029, 092, 209, 290, 902, 920), 029 is prime,
+but is not a valid number because has leading zeros, in the valid numbers (209, 290, 902, 920).
+there are no primes, so the answer is ``NO''
+
+For the fith case 24 only has two possible numbers (24, 42) and there are no primes, so the
+answer is ``NO''.
+
+\newpage
+        \begin{center}
+            {\LARGE Problem E}\\
+            {\Large Toby And Numbers}\\
+            {Time limit: 2 second}\\
+            {Memory limit: 256 megabytes}
+        \end{center}\textbf{\large Problem Description}
+
+Toby just invented a game with numbers, initially you have a list of numbers
+and at any moment you can do the following operation:
+
+\begin{itemize}
+    \item Take two different numbers and replace the greater one with the absolute
+    difference of those numbers.
+    \item The game ends when all the numbers are equal.
+\end{itemize}
+
+It can be shown that the game always ends and no matter how you play, the result
+will be always the same.
+
+Help toby to determine what is the result for several instances of the game.
+
+\textbf{\large Input Format}
+
+The input begins with an integer $T$ denoting the number of test cases. For each
+test case, there is a number $N$ indicating how many numbers are in the current case,
+followed by $N$ positive integers.
+
+$1 \le N \le 100$
+
+Each one of the $N$ numbers is between 1 and 10000
+
+\textbf{\large Output Format}
+
+Print one integer for each test case. Note that at end of each game all the
+numbers are equal, for this reason you only need to print it once, no matter what
+is the size of the input list.
+
+\textbf{\large Sample Input}
+
+\begin{verbatim}
+2
+3
+3 6 9
+5
+2 8 10 16 36
+\end{verbatim}
+
+\textbf{\large Sample Output}
+
+\begin{verbatim}
+3
+2
+\end{verbatim}
+
+\newpage
+        \begin{center}
+            {\LARGE Problem F}\\
+            {\Large Toby And Sheeps}\\
+            {Time limit: 2 second}\\
+            {Memory limit: 256 megabytes}
+        \end{center}\textbf{\large Problem Description}
+
+Toby is now a shepherd and has a flock of sheeps all of them in a row, but alas there are wolves too, luckly our pet is pretty relaxed and will enter on panic only if when he sight a subsegment of his flock the number of wolves is greater than the number of sheeps.
+
+Toby has few questions for you, as he is too lazy, he wants to ask you if for an given interval  (defined by $[L, R]$) there are more wolves than sheeps, you have to answer Yes or No.
+
+Note: A sheep is represented by a '1' and a wolf is represented by a '0'.
+
+\textbf{\large Input Format}
+
+There are several test cases.
+Each test case starts by a number $N$ denoting the number animals in the flock (sheeps and wolves), next you have to read $N$ numbers (0 or 1); followed by a number $Q$, the number of queries that Toby got for you, then $Q$ lines are given and you will have to read $L$ and $R$ denoting the begin and the end of the subsegment that Toby wants to check.
+
+$1 \le N, Q \le 100000$ \\
+$1 \le L \le R \le N$
+
+\textbf{\large Output Format}
+
+For each query you have to output ``Yes'' if the numbers of wolves is greater than the numbers of sheeps, and ``No'' otherwise. Without quotes.
+
+\textbf{\large Sample Input}
+
+\begin{verbatim}
+4
+1 0 1 1
+3
+1 2
+2 2
+1 4
+\end{verbatim}
+
+\textbf{\large Sample Output}
+
+\begin{verbatim}
+No
+Yes
+No
 \end{verbatim}
 
 \newpage
