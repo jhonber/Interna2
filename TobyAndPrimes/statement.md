@@ -1,23 +1,23 @@
-Toby and primes
+# Toby and primes
 
 Toby loves prime numbers and today he has the next challenge for you.
 You have an integer N (N has between 1 and 4 digits), is possible to reorder the
 digits of the number in such a way that one of the resulting numbers is a prime number?
 Note: The resulting number can't have leading zeros.
 
-Input
+## Input
 
 The first line contains an integer T, denoting the number of test cases, in each of
 the next T lines there is an integer N.
 
-Output
+## Output
 
 For each test case you have to print "YES" if is possible to reorder the digits and make
 a prime number or print "NO" otherwise.
 
-Example:
+## Sample input
 
-Input
+```text
 6
 1
 7
@@ -25,16 +25,20 @@ Input
 209
 24
 1798
+```
 
-Output
-NO
-YES
-YES
-NO
-NO
-YES
+## Sample output
 
-Explanation:
+```text
+NO
+YES
+YES
+NO
+NO
+YES
+```
+
+### Explanation:
 For the fourth case 209 can be reorder like this (029, 092, 209, 290, 902, 920), 029 is prime,
 but is not a valid number because has leading zeros, in the valid numbers (209, 290, 902, 920).
 there are no primes, so the answer is "NO"
