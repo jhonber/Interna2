@@ -220,4 +220,59 @@ For the fith case 24 only has two possible numbers (24, 42) and there are no pri
 answer is ``NO''.
 
 \newpage
+        \begin{center}
+            {\LARGE Problem E}\\
+            {\Large Toby And Numbers}\\
+            {Time limit: 2 second}\\
+            {Memory limit: 256 megabytes}
+        \end{center}\textbf{\large Problem Description}
+
+Toby just invented a game with numbers, initially you have a list of numbers
+and at any moment you can do the following operation:
+
+\begin{itemize}
+    \item Take two different numbers and replace the greater one with the absolute
+    difference of those numbers.
+    \item The game ends when all the numbers are equal.
+\end{itemize}
+
+It can be shown that the game always ends and no matter how you play, the result
+will be always the same.
+
+Help toby to determine what is the result for several instances of the game.
+
+\textbf{\large Input Format}
+
+The input begins with an integer $T$ denoting the number of test cases. For each
+test case, there is a number $N$ indicating how many numbers are in the current case,
+followed by $N$ positive integers.
+
+$1 \le N \le 100$
+
+Each one of the $N$ numbers is between 1 and 10000
+
+\textbf{\large Output Format}
+
+Print one integer for each test case. Note that at end of each game all the
+numbers are equal, for this reason you only need to print it once, no matter what
+is the size of the input list.
+
+\textbf{\large Sample Input}
+
+\begin{verbatim}
+2
+3
+3 6 9
+5
+2 8 10 16 36
+\end{verbatim}
+
+\textbf{\large Sample Output}
+
+\begin{verbatim}
+3
+2
+\end{verbatim}
+
+\newpage
     \end{document}
