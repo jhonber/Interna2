@@ -1,4 +1,4 @@
-# Toby Is Lost In The Mall
+# Toby And Mall
 
 Toby is lost in a mall and now is looking for the exit, the mall can be modeled as a matrix in 2D of N rows and M columns, Toby is located at the left upper corner and the exit is located at the right lower corner, Toby just have 2 kinds of steps to move forwards to the exit, moving  right or lower to the adjacents cells  and pay a price to move there, each cell has a price that must be payed to stay there, can you help to our pet to find the exit paying the lowest price?.
 
