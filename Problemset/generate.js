@@ -10,7 +10,7 @@ var content = []
 for (var letter in config['problems']) {
     var problem = config['problems'][letter]
 
-    problem['time'] = problem['time'] || '1'
+    problem['time'] = problem['time'] || '2'
     problem['memory'] = problem['memory'] || '256'
 
     var header = `
