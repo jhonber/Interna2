@@ -3,6 +3,11 @@
         "A": {
             "name": "Toby And Love",
             "path": "TobyAndLove/statement.tex"
+        },
+
+        "H": {
+          "name": "Toby And Sherlock",
+          "path": "TobyAndSherlock/statement.tex"
         }
     }
 }
