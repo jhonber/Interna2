@@ -2,7 +2,7 @@
 
 Toby is now a shepherd and has a flock of sheeps all of them in a row, but alas there are wolves too, luckly our pet is pretty relaxed and will enter on panic only if when he sight a subsegment of his flock the number of wolves is greater than the number of sheeps.
 
-Toby has few questions for you, how is too lazy, he wants to ask you if for an interval given (defined by [L, R]) there are more wolves than sheeps, you have to answer Yes or No.
+Toby has few questions for you, as he is too lazy, he wants to ask you if for an given interval  (defined by [L, R]) there are more wolves than sheeps, you have to answer Yes or No.
 
 Note: A sheep is represented by a '1' and a wolf is represented by a '0'.
 
