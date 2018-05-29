@@ -19,6 +19,10 @@
         "E": {
             "name": "Toby And Numbers",
             "path": "TobyAndNumbers/statement.tex"
+        },
+        "F": {
+            "name": "Toby And Sheeps",
+            "path": "TobyAndSheeps/statement.tex"
         }
     }
 }
