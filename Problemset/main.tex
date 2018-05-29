@@ -321,4 +321,265 @@ No
 
 \newpage
 
+        \begin{center}
+            {\LARGE Problem G}\\
+            {\Large Toby And Candies}\\
+            {Time limit: 2 second}\\
+            {Memory limit: 256 megabytes}
+        \end{center}\textbf{\large Problem Description}
+
+Toby has $D$ candies and he wants to know the number of ways he can distribute
+those candies between $K$ friends. Note that for a particular distribution of the
+candies, some people could get no candies at all.
+
+\textbf{\large Input Format}
+
+The input starts with a number $T$ indicating the number of test cases. For each one
+of the following $T$ lines, there are two integers $D$ and $K$ denoting the number
+of candies and the number of friends respectively.
+
+$1 \le T, D, K \le 10$
+
+\textbf{\large Output Format}
+
+For each test case print the answer to the problem in a new line
+
+\textbf{\large Sample Input}
+
+\begin{verbatim}
+1
+3 2
+\end{verbatim}
+
+\textbf{\large Sample Output}
+
+\begin{verbatim}
+4
+\end{verbatim}
+
+\textbf{\large Explanation}
+
+the four ways to distribute the candies among 2 people are:
+
+\begin{verbatim}
+3, 0
+2, 1
+1, 2
+0, 3
+\end{verbatim}
+
+\newpage
+        \begin{center}
+            {\LARGE Problem H}\\
+            {\Large Toby And Sherlock}\\
+            {Time limit: 2 second}\\
+            {Memory limit: 256 megabytes}
+        \end{center}\textbf{\large Problem Description}
+
+Toby and his friend Sherlock are playing a game with stones, the rules are:
+\begin{itemize}
+\item Initially there are N stones.
+\item  They play in turns.
+\item  Toby plays first.
+\item  Each player could take between 1 and 5 stones in one turn.
+\item  If one player has no stones to take, he loses the game.
+\end{itemize}
+
+Help Toby to determine who will win for a several number of stones. Take into account that both players will play optimally.
+
+\textbf{\large Input Format}
+
+The input begins with a number $T$ denoting the number of test cases. For each
+test case a positive number $N$ is given and indicates the number of stones.
+
+$ 1 \le T \le 1000 $ \\
+$ 1 \le N \le 1000 $
+
+\textbf{\large Output Format}
+
+For each test case print ``Toby'' if Toby wins the game, print ``Sherlock'' otherwise.
+
+\textbf{\large Sample Input}
+
+\begin{verbatim}
+2
+4
+7
+\end{verbatim}
+
+\textbf{\large Sample Output}
+
+\begin{verbatim}
+Toby
+Toby
+\end{verbatim}
+
+\newpage
+
+        \begin{center}
+            {\LARGE Problem I}\\
+            {\Large Toby And Addition}\\
+            {Time limit: 2 second}\\
+            {Memory limit: 256 megabytes}
+        \end{center}\textbf{\large Problem Description}
+
+Toby lives in Bitland where things are a little weird,
+by example 4 + 5 = 3 woow!. Definitely the addition is not like we know.
+Toby like a regular citizen knows very well the process for addition in Bitland.
+He say, ``Is easy, just count the total amount of bits turn on between numbers''
+
+\textbf{\large Example}
+
+$4 + 5 = 3$ \\
+$4 -> 100$: there is 1 bit turn on \\
+$5 -> 101$: there are 2 bits turn on \\
+
+So the answer is 1 + 2 = 3
+
+For this challenge you need to learn how Bitland's citizens add two number.
+
+\textbf{\large Input Format}
+
+The first line contains an integer $T$, $(T \le 1000)$, the number of test cases,
+each test case contains two integers $a$ and $b$ $(0 \le a,b \le 10^{18})$.
+
+\textbf{\large Note:}
+
+to store a and b you need more than 32 bits, so watch out! :P
+
+\textbf{\large Output Format}
+
+For each test case print a single integer with the answer.
+
+\textbf{\large Sample Input}
+
+\begin{verbatim}
+5
+1 1
+8 64
+4 5
+66666666 33333333
+576460752303423487 576460752303423487
+\end{verbatim}
+
+\textbf{\large Sample Output}
+
+\begin{verbatim}
+2
+2
+3
+26
+118
+\end{verbatim}
+
+\newpage
+
+        \begin{center}
+            {\LARGE Problem J}\\
+            {\Large Toby And The Mall}\\
+            {Time limit: 2 second}\\
+            {Memory limit: 256 megabytes}
+        \end{center}\textbf{\large Problem Description}
+
+Toby is lost in a mall and now is looking for the exit, the mall can be modeled
+as a matrix in 2D of $N$ rows and $M$ columns, Toby is located at the upper-left
+corner and the exit is located at the lower-right corner, Toby only has 2
+kinds of moves, he can move one step right or one step down to the adjacent
+cells. Each cell has a price that must be payed in order to stay there.
+Can you help to our pet to find the exit paying the lowest possible price?.
+
+\textbf{\large Input Format}
+
+The input contains two numbers $N$, $M$ denoting number of rows and columns respectively.
+Each one of the following $N$ lines, contains $M$ integers denoting the price that
+Toby must pay to stay in the $(i-th, j-th)$ cell.
+
+$1 \le N, M \le 1000$
+
+Each element in the matrix is between 1 and 1000.
+
+\textbf{\large Output Format}
+
+Print the minimum price that Toby has to pay to reach the exit.
+
+\textbf{\large Sample Input}
+
+\begin{verbatim}
+4 5
+1 1 1 5 6
+2 2 1 8 1
+2 1 8 1 2
+1 1 1 1 1
+\end{verbatim}
+
+\textbf{\large Sample Output}
+
+\begin{verbatim}
+9
+\end{verbatim}
+
+\newpage
+        \begin{center}
+            {\LARGE Problem K}\\
+            {\Large Toby And The Railway Stations}\\
+            {Time limit: 2 second}\\
+            {Memory limit: 256 megabytes}
+        \end{center}\textbf{\large Problem Description}
+
+Toby is analysing the railway system of his city, and he has noticed that it can
+be modeled like a directed graph where the stations are the vertices and the edges
+are the rails that connect them.
+
+Toby got a lot queries for you and for each query he wants to know how many
+stations are reachable if he is actually at the station $S$, by reachable he
+means that can go from $S$ to an station $T$ using one or more rails.
+
+\textbf{\large Input Format}
+
+The input contains two numbers $N$, $M$ denoting number of stations and rails
+respectively. Each one of the following $M$ lines contains two integers $(X, Y)$
+denoting that there is a connection from $X$ to $Y$, then one integer $Q$
+denoting the number of queries that Toby is going to give to you, in the next $Q$
+lines an integer $S$ is given, that is the city which toby wants to know how
+many stations are reachable from it.
+
+\textbf{\large Note:}
+
+You can assume that $X$ and $Y$ are different.
+
+$1 \le N, Q \le 1000$ \\
+$0 \le M \le (N * (N - 1)) / 2$ % TODO: change value of M to 1000
+
+\textbf{\large Output Format}
+
+For each query print the number of stations reachable from $S$.
+
+\textbf{\large Sample Input}
+
+\begin{verbatim}
+7 9
+1 2
+2 4
+4 3
+3 1
+4 5
+1 5
+7 2
+7 6
+6 7
+3
+6
+5
+2
+\end{verbatim}
+
+\textbf{\large Sample Output}
+
+\begin{verbatim}
+6
+0
+4
+\end{verbatim}
+
+\newpage
     \end{document}

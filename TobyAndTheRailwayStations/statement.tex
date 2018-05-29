@@ -1,20 +1,28 @@
 \textbf{\large Problem Description}
 
-Toby is analysing the railway system of his city, and he has noticed that it can be modeled like a directed graph where the stations are the vertex and the edges are the rails that connect them.
+Toby is analysing the railway system of his city, and he has noticed that it can
+be modeled like a directed graph where the stations are the vertices and the edges
+are the rails that connect them.
 
-Toby got a lot queries for you and for each query he wants to know how many stations are reachable if he is actually in the station $S$, by reachable he means that can go from $S$ to an station $T$ using one or more rails.
+Toby got a lot queries for you and for each query he wants to know how many
+stations are reachable if he is actually at the station $S$, by reachable he
+means that can go from $S$ to an station $T$ using one or more rails.
 
 \textbf{\large Input Format}
 
-The input contains two numbers $N$, $M$ denoting number of stations and rails respectively. Each one of the following $M$ lines contains two integers $(X, Y)$ denoting that there is a connection from $X$ to $Y$, then one integer $Q$ denoting the number of queries that Toby is going to give to you, in the next $Q$ lines an integer $S$ is given the city for which toby wants to know how many stations are reachable from it.
+The input contains two numbers $N$, $M$ denoting number of stations and rails
+respectively. Each one of the following $M$ lines contains two integers $(X, Y)$
+denoting that there is a connection from $X$ to $Y$, then one integer $Q$
+denoting the number of queries that Toby is going to give to you, in the next $Q$
+lines an integer $S$ is given, that is the city which toby wants to know how
+many stations are reachable from it.
 
 \textbf{\large Note:}
 
 You can assume that $X$ and $Y$ are different.
 
-$1 \le N, Q \le 1000$
-$0 \le M \le (N * (N - 1)) / 2$ **TODO change value of M to 1000
-
+$1 \le N, Q \le 1000$ \\
+$0 \le M \le (N * (N - 1)) / 2$ % TODO: change value of M to 1000
 
 \textbf{\large Output Format}
 
@@ -46,3 +54,5 @@ For each query print the number of stations reachable from $S$.
 0
 4
 \end{verbatim}
+
+\newpage
