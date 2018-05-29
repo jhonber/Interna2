@@ -4,9 +4,13 @@ using namespace std;
 int main() {
   int n, m;
   while (cin >> n >> m) {
+    assert(n <= 1000 && m <= 1000);
     vector<vector<int>> dp(n, vector<int>(m));
     for (auto &i : dp)
-      for (auto &j : i) cin >> j;
+      for (auto &j : i) {
+        cin >> j;
+        assert(j <= 1000);
+      }
 
     for (int i = 1; i < m; i++) dp[0][i] += dp[0][i - 1];
     for (int i = 1; i < n; i++) dp[i][0] += dp[i - 1][0];
