@@ -24,6 +24,7 @@ int main() {
     while (T --> 0) {
       cin >> d >> k;
 
+      if (d > 10 || d < 1 || k < 1 || k > 10) paila("Bad range for D or K");
       int ans = go(d, k, 0);
       cout << ans << endl;
     }
