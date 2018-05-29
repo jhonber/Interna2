@@ -7,6 +7,10 @@
         "B": {
             "name": "Toby And Coins",
             "path": "TobyAndTheCoins/statement.tex"
+        },
+        "C": {
+            "name": "Toby And Stars",
+            "path": "TobyAndStars/statement.tex"
         }
     }
 }
