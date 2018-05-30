@@ -11,7 +11,7 @@ for (var letter in config['problems']) {
     var problem = config['problems'][letter]
 
     problem['time'] = problem['time'] || '2'
-    problem['memory'] = problem['memory'] || '256'
+    problem['memory'] = problem['memory'] || '512'
 
     var header = `
         \\begin{center}
