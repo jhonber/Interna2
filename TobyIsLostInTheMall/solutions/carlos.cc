@@ -4,7 +4,7 @@ using namespace std;
 int main() {
   int n, m;
   while (cin >> n >> m) {
-    assert(n <= 1000 && m <= 1000);
+    assert(n <= 200 && m <= 200);
     vector<vector<int>> dp(n, vector<int>(m));
     for (auto &i : dp)
       for (auto &j : i) {
