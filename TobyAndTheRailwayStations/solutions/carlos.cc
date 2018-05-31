@@ -16,7 +16,7 @@ int dfs(int node, vector<vector<int>> &G, vector<bool> &v) {
 int main() {
   int n, m, q, u, v, s;
   while (cin >> n >> m) {
-    assert(n <= 1000 && m <= (n * (n - 1)) / 2);
+    assert(n <= 1000 && m <= min(2000, (n * (n - 1))));
 
     vector<vector<int>> G(n);
     vector<bool> vis(n);
