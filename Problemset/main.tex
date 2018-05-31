@@ -494,7 +494,7 @@ The input contains two numbers $N$, $M$ denoting number of rows and columns resp
 Each one of the following $N$ lines, contains $M$ integers denoting the price that
 Toby must pay to stay in the $(i-th, j-th)$ cell.
 
-$1 \le N, M \le 1000$
+$1 \le N, M \le 200$
 
 Each element in the matrix is between 1 and 1000.
 
@@ -519,6 +519,7 @@ Print the minimum price that Toby has to pay to reach the exit.
 \end{verbatim}
 
 \newpage
+
         \begin{center}
             {\LARGE Problem K}\\
             {\Large Toby And The Railway Stations}\\
@@ -548,7 +549,7 @@ many stations are reachable from it.
 You can assume that $X$ and $Y$ are different.
 
 $1 \le N, Q \le 1000$ \\
-$0 \le M \le (N * (N - 1)) / 2$ % TODO: change value of M to 1000
+$0 \le M \le min((N * (N - 1)), 2000) $ % TODO: change value of M to 1000
 
 \textbf{\large Output Format}
 
@@ -582,4 +583,63 @@ For each query print the number of stations reachable from $S$.
 \end{verbatim}
 
 \newpage
+
+        \begin{center}
+            {\LARGE Problem L}\\
+            {\Large Toby And The Flowers}\\
+            {Time limit: 2 second}\\
+            {Memory limit: 512 megabytes}
+        \end{center}\textbf{\large Problem Description}
+
+Toby has $N$ flowers in a row; As you know he is a big fan of queries and got two types of them.
+
+1 - of the form $1 X W $ water the flower on the position $X$, after watering the $X-th$ flower add $W$ to its size.\\
+2 - of the form $2 L R $ retrieve the tallest flower in the range $[l, r]$.\\
+
+May you help our little pet answering all queries?.
+
+\textbf{\large Input Format}
+
+The input contains two numbers $N$, $Q$ denoting number of flowers and queries
+respectively. In the next line $N$ numbers separated by spaces are given as the initial size of each flower.
+The next $Q$ lines have 3 integers each one $T$, $A$, $B$; if $T == 1$ then $A$, $B$
+are the position of the flower to be watered and the quantity that must be added to the current size respectively, and if
+$T == 2$ then $A$, $B$ are the begin and the end of the interval where you need to find the tallest flower.
+
+$1 \le N, Q \le 100000$ \\
+$1 \le T \le 2 $\\
+if $ T == 1 $:\\
+$  1 \le A \le N $\\
+$  -10^6 \le B \le 10^6$\\
+if $ T == 2 $:\\
+$  1 \le A \le B \le N $\\
+
+\textbf{\large Output Format}
+
+For each query of type 2 print the tallest flower in the range $[L, R]$.
+
+\textbf{\large Sample Input}
+
+\begin{verbatim}
+10 5
+1 2 3 4 5 6 1 2 3 4
+2 1 10
+1 6 -5
+2 1 10
+1 1 10
+2 1 10
+2 7 8
+\end{verbatim}
+
+\textbf{\large Sample Output}
+
+\begin{verbatim}
+6
+5
+11
+2
+\end{verbatim}
+
+\newpage
+
     \end{document}

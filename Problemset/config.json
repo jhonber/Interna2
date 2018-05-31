@@ -43,6 +43,10 @@
         "K": {
             "name": "Toby And The Railway Stations",
             "path": "TobyAndTheRailwayStations/statement.tex"
+        },
+        "L": {
+            "name": "Toby And The Flowers",
+            "path": "TobyAndTheFlowers/statement.tex"
         }
     }
 }
