@@ -1,27 +1,28 @@
 \textbf{\large Problem Description}
 
-Toby has $N$ flowers in a row; As you know he is a big fan of queries and got two types of them.
+Toby has $N$ flowers in a row; As you know he is a big fan of queries and now
+he has two queries for his flowers.
 
-1 - of the form $1 X W $ water the flower on the position $X$, after watering the $X-th$ flower add $W$ to its size.\\
-2 - of the form $2 L R $ retrieve the tallest flower in the range $[l, r]$.\\
+\begin{itemize}
+    \item $1$ $X$ $W$ water the flower at the position $X$, after watering the $Xth$ flower add $W$ to its size.
+    \item $2$ $L$ $R$ retrieve the tallest flower in the range $[L, R]$.
+\end{itemize}
 
-May you help our little pet answering all queries?.
+Can you help our little pet answering all queries?
 
 \textbf{\large Input Format}
 
 The input contains two numbers $N$, $Q$ denoting number of flowers and queries
 respectively. In the next line $N$ numbers separated by spaces are given as the initial size of each flower.
-The next $Q$ lines have 3 integers each one $T$, $A$, $B$; if $T == 1$ then $A$, $B$
-are the position of the flower to be watered and the quantity that must be added to the current size respectively, and if
-$T == 2$ then $A$, $B$ are the begin and the end of the interval where you need to find the tallest flower.
+The next $Q$ lines start with an integer $T$, if $T$ is equal to 1 the line continues with
+two numbers $X$ and $W$ indicating that the flower $X$ grows $W$ units. If $T$ equals 2, then
+the line contains two numbers $L$ and $R$.
 
 $1 \le N, Q \le 100000$ \\
 $1 \le T \le 2 $\\
-if $ T == 1 $:\\
-$  1 \le A \le N $\\
-$  -10^6 \le B \le 10^6$\\
-if $ T == 2 $:\\
-$  1 \le A \le B \le N $\\
+$1 \le X \le N$ \\
+$-10^6 \le W \le 10^6$\\
+$1 \le L \le R \le N $\\
 
 \textbf{\large Output Format}
 
@@ -48,5 +49,9 @@ For each query of type 2 print the tallest flower in the range $[L, R]$.
 11
 2
 \end{verbatim}
+
+\textbf{\large Note}
+
+When $W$ is negative, the size of the flower decreases.
 
 \newpage
