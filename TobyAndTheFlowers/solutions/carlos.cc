@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+const long long START = 1e12 * -1;
+
 struct node {
   long long value;
   node * left, * right;
@@ -10,7 +12,7 @@ struct node {
 typedef node * pnode;
 
 void update(pnode root) {
-    long long ans = 0;
+    long long ans = START;
     if (root-> left != nullptr) ans = root-> left-> value;
     if (root-> right != nullptr) ans = max(ans, root-> right-> value);
     root-> value = ans;
@@ -22,10 +24,10 @@ pnode modify(pnode root, int b, int e, int l, int r, int v) {
   if (b > r || e < l) return root;
   if (b >= l && e <= r) {
     root-> value += v;
-    return root; 
+    return root;
   }
   int mid = (b + e) >> 1;
-  
+
   root-> left = modify(root-> left, b, mid, l, r, v);
   root-> right = modify(root-> right, mid + 1, e, l, r, v);
   update(root);
@@ -33,7 +35,7 @@ pnode modify(pnode root, int b, int e, int l, int r, int v) {
 }
 
 long long query(pnode root, int b, int e, int l, int r) {
-  if (root == nullptr || b > r || e < l) return 0LL;
+  if (root == nullptr || b > r || e < l) return START;
   if (b >= l && e <= r) return root-> value;
   int mid = (b + e) >> 1;
   long long left = query(root-> left, b, mid, l, r);
@@ -58,6 +60,6 @@ int main() {
         cout << query(root, 0, n - 1, l - 1, r - 1) << "\n";
       }
     }
-  }  
+  }
   return 0;
 }
