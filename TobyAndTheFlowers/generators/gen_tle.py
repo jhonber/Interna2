@@ -12,8 +12,8 @@ queries = []
 
 i = 1
 while len(queries) < Q:
-    queries.append([1, i, randint(-1e6, 1e6)])
-    queries.append([1, 1, i])
+    queries.append([1, randint(0, i), randint(-1e6, 1e6)])
+    queries.append([2, 1, i])
 
 assert(len(queries) == Q)
 
