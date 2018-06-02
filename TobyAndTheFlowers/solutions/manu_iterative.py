@@ -18,7 +18,7 @@ class SegTree:
             p >>= 1
 
     def query(self, l, r):
-        res = 0
+        res = -100000000000000
         l += self.n
         r += self.n
         while (l < r):
