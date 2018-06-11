@@ -12,4 +12,5 @@ The contest was sponsored by:
 
   - Sergio Florez [@xergioalex](https://github.com/xergioalex)
   - Sirius research group https://sirius.utp.edu.co/
-  - Jhon Jumenez [@jhonber](https://github.com/jhonber/)
+  - Jhon Jimenez [@jhonber](https://github.com/jhonber/)
+  - Manuel Pineda [@pin3da](https://github.com/pin3da/)
