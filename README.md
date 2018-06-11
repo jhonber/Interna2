@@ -14,3 +14,5 @@ The contest was sponsored by:
   - Sirius research group https://sirius.utp.edu.co/
   - Jhon Jimenez [@jhonber](https://github.com/jhonber/)
   - Manuel Pineda [@pin3da](https://github.com/pin3da/)
+  
+  **Special thanks to [Heroku](https://www.heroku.com/)** for hosting The scoreboard [https://interna-utp.herokuapp.com/](https://interna-utp.herokuapp.com/)
