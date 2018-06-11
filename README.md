@@ -7,6 +7,9 @@ The problems must fulfill the next requirements:
 - Solutions: Each problem must have 3 solutions as minimum in C++, Python and Java
 
 ## Support
-We need support for snacks and awards, please write down the possible sponsors
 
-- Manuel
+The contest was sponsored by:
+
+  - Sergio Florez [@xergioalex](https://github.com/xergioalex)
+  - Sirius research group https://sirius.utp.edu.co/
+  - Jhon Jumenez [@jhonber](https://github.com/jhonber/)
